@@ -1,0 +1,68 @@
+
+.register-login .contenedor {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 375px;
+}
+
+.register-login h2 {
+    text-align: center;
+}
+
+.register-login .contenedor .container-input {
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+}
+
+.register-login .text {
+    width: 100%;
+}
+
+.register-login .date {
+    margin: 0 auto;
+}
+
+.register-login .radio,
+.checkbox {
+    margin: 0 20px;
+}
+
+button {
+    color: var(--gris-claro);
+    font-weight: 700;
+}
+
+
+
+.container-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+
+
+
+
+button:hover {
+    cursor: pointer;
+}
+
+.submit {
+    background-color: var(--celeste);
+    transition: all ease .3s;
+}
+
+.submit:hover{
+background-color: #0022AA;
+}
+.reset {
+    background-color: red;
+    transition: all ease .3s;
+}
+
+.reset:hover{
+    background-color: #B20000;
+}
+

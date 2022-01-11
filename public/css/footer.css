@@ -1,0 +1,54 @@
+footer {
+    font-family: 'Roboto';
+    margin-top: 20px;
+    background-color: white;
+    padding-top: 50px;
+}
+
+footer a {
+    font-size: 2em;
+    color: var(--celeste);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 10px 0;
+}
+
+footer h4 {
+    text-align: center;
+    margin: 0;
+    padding: 15px 0;
+}
+
+footer p {
+    text-align: center;
+    font-size: 12px;
+    margin: 0 35px;
+    line-height: 18px;
+}
+footer section i{
+    color: var(--celeste);
+    font-size: 2em;
+    margin-bottom: 10px;
+    transition: color ease .4s;
+}
+footer section i:hover{
+    color: blue;
+}
+
+footer p.derechos {
+    text-align: left;
+    color: var(--gris-oscuro);
+    margin-top: 50px;
+}
+
+@media(min-width: 1024px){
+    footer .container{
+        display: flex;
+        margin: 0 50px;
+    
+        
+    }
+}
+

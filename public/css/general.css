@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--gris-claro);
+}
+
+input,
+button {
+    font-size: 16px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* variables */
+
+:root {
+    --amarillo: #EAC926;
+    --azul: #03264C;
+    --celeste: #1259c3;
+    --gris-oscuro: #666;
+    --gris-claro: #ebebeb;
+    --verde: #39b54a;
+    --negro: black
+}
